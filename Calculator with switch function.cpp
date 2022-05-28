@@ -52,19 +52,19 @@ int main()
 	cout<<'\n'<<'\n';
 
     switch (oper) {
-        case '1':
+        case 1:
        		 n3=add(n1, n2);
        		 cout<<n3;
             break;
-        case '2':
+        case 2:
         	 n3=subt(n1, n2);
              cout<<n3;
 			break;
-        case '3':
+        case 3:
            n3=mult(n1, n2);
              cout<<n3;
 			break;
-        case '4':
+        case 4:
            n3=div(n1, n2);
              cout<<n3;
 			break;
